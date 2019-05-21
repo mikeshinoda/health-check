@@ -1,0 +1,32 @@
+{
+  "name": "@akshit_sawhney/health-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "local": "nodemon bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeshinoda/health-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeshinoda/health-check/issues"
+  },
+  "homepage": "https://github.com/mikeshinoda/health-check#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
